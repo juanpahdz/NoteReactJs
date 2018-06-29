@@ -17,23 +17,23 @@ class App extends Component {
       ]    
       
     }
-    // this.app = firebase.initializeApp(DB_CONFIG);
-    // this.db = this.app.dataBase().ref().child('notes');
+    this.app = firebase.initializeApp(DB_CONFIG);
+    this.db = this.app.dataBase().ref().child('notes');
   }
   
-  // componentDidMount = () => {
+  componentDidMount = () => {
 
-  //   const { notes } = this.state 
-  //   this.db.on('child_added', snap => {
-  //     notes.push({
-  //       id: snap.key,
-  //       titulo: snap.val().titulo,
-  //       hora: snap.val().hora,
-  //       descripcion: snap.val().descripcion})
+    const { notes } = this.state 
+    this.db.on('child_added', snap => {
+      notes.push({
+        id: snap.key,
+        titulo: snap.val().titulo,
+        hora: snap.val().hora,
+        descripcion: snap.val().descripcion})
 
-  //       this.setSate({notes})
-  //   })
-  // }
+        this.setSate({notes})
+    })
+  }
 
   addNote = (title, description, time) => {
     let { notes } = this.state; 
