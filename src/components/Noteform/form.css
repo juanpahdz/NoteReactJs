@@ -1,0 +1,46 @@
+form{
+    display: block;
+    margin-top: 50px;
+}
+label{
+    font-size: 1.5rem;
+    color: black;
+}
+input{
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    width: 100%;
+    padding: 7px;
+}
+.container2{
+    float:right;
+    width: 40%;
+    margin: 0 5%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+input:active{
+    border: 1px solid blue;
+    transition: ease 0.2s;
+}
+
+.BtnForm{
+    margin: 20px;
+    border-radius: 20px;
+    width: 30%;
+    background: red;
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    border: 2px solid red;
+}
+
+.BtnForm:hover{
+    cursor:pointer;
+    transition: ease-in-out 0.3s;
+    -webkit-box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.253);
+    -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.322);
+    filter: shadow(color=#0000, direction=100, strength=2);
+}

@@ -1,0 +1,86 @@
+.titleNote {
+    margin: 15px;
+    width: 90%;
+    background: white;
+    border-bottom: 2px solid grey;
+    color: black;
+    display: inline-block;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.Notes {
+    width: 300px;
+    margin-left: 50px; 
+    display: inline-block;
+    background: white;
+    border-radius: 20px;
+    border: 0.5px solid rgba(0, 0, 0, 0.295);
+    margin-top: 50px;
+    -webkit-box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.253);
+    -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.322);
+    filter: shadow(color=#0000, direction=135, strength=2);
+}
+.container{
+    width: 60%;
+    background: rgb(245, 245, 245);
+}
+
+.Hora{
+    border-radius: 50px;
+    color: red;
+    border: 2px solid blue; 
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding: 4px;
+}
+.Hora:hover{
+    cursor: pointer;
+    color: white; 
+    background: blue;
+    transition: ease 0.5s;
+}
+
+.Descripcion{
+    color:black;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.BtnNotes{
+    margin: 20px;
+    border-radius: 20px;
+    width: 50%;
+    background: red;
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    border: 2px solid red;
+    
+}
+
+.BtnNotes:hover{
+    cursor:pointer;
+    transition: ease-in-out 0.3s;
+    -webkit-box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.253);
+    -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.322);
+    filter: shadow(color=#0000, direction=135, strength=2);
+}
+.FooterNotes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cross{
+    margin-bottom: 5px;
+    
+}
+.cross:hover{
+    transition: ease 0.3s;
+    color: red;
+    cursor:pointer; 
+    
+}

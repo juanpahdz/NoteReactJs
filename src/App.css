@@ -1,0 +1,23 @@
+body {
+  background-color:white;
+  margin: 0px;
+  color: white;
+}
+
+.notesHeader{
+  text-align: center;
+  padding: 20px 0px; 
+  background: rgba(20, 2, 85, 0.993);
+  font-family: 'Lobster', cursive;
+  font-size: 1.5rem; 
+}
+
+.notesBody{
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.212)
+}
+
+.wrap{
+  width: 100%;
+  display: inline-flex;
+}
